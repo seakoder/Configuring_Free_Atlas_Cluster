@@ -1,0 +1,15 @@
+FOllow the below steps to create and connect to a free Atlas Cluster by MongoDb.
+
+#1 Create an account on mongodb.com 
+#2 On the projects page click on 'New Project' and select the free option.
+#3 Follow the steps and create a user in the following step.
+#4 Now choose the project from the top left dropdown and click on create Database. 
+#5 whitelist the IP addresses by clicking on the 'Network Access' option on the sidebar and editing the IP with '0.0.0.0/0'
+#6 Click on the connect button and select the 'Drivers' option and run the command displayed on the screen.
+#7 Copy the link provided and paste it in the Index.js or the main js file in your project and ensure you replace the username and password.
+#8 The user details are not the account details, you can find it in the 'Database Access' option in the sidebar. Or, create a new user with read and write permissions.
+#9 Once the above is completed import Express and Mongoose. You might have to install if they are not available.
+
+```const url= URL provided by mongo```
+
+```mongoose.connect(url)```
