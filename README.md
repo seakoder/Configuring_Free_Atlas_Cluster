@@ -7,6 +7,7 @@
 ```npm install nodemon -g```
 
 #paste the following in the main js file with correct database user and password
+
 ```const url= URL provided by mongo```
 ```mongoose.connect(url)```
 
